@@ -18,12 +18,12 @@ public class PlusOneTest {
 	@Test
 	public void plusOne129ShouldReturn130() {
 		List<Integer> result = PlusOne.plusOne(new ArrayList<>(Arrays.asList(1,2,9)));
-		Assert.assertTrue(Arrays.asList(1,3,0).equals(result));
+		Assert.assertEquals(Arrays.asList(1,3,0), result);
 	}
 
 	@Test
 	public void plusOne999ShouldReturn1000() {
 		List<Integer> result = PlusOne.plusOne(new ArrayList<>(Arrays.asList(9,9,9)));
-		Assert.assertTrue(Arrays.asList(1,0,0,0).equals(result));
+		Assert.assertEquals(Arrays.asList(1,0,0,0), result);
 	}
 }
