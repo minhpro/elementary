@@ -1,7 +1,6 @@
 package elementary.datastructure;
 
 import java.util.LinkedList;
-import java.util.List;
 import java.util.ListIterator;
 
 public class ListNode<T> {
